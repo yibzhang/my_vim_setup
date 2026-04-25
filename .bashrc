@@ -24,9 +24,10 @@ fi
 _PS1_COLOR_RED='\[\e[01;31m\]'
 _PS1_COLOR_GREEN='\[\e[01;32m\]'
 _PS1_COLOR_BLUE='\[\e[01;34m\]'
+_PS1_COLOR_PURPLE='\[\e[01;35m\]'
 _PS1_COLOR_WHITE='\[\e[00m\]'
 
-_PS1_TIME_DATE="$_PS1_COLOR_WHITE[\t \d]"
+_PS1_TIME_DATE="$_PS1_COLOR_PURPLE[\t \d]"
 _PS1_USER_AND_HOST="$_PS1_COLOR_GREEN[\u@\h]"
 _PS1_WORK_DIR="$_PS1_COLOR_BLUE\w"
 _PS1_GIT='$(__git_ps1 "(%s)")'
